@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>book</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/stylef.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <a href="index.html" class="logo">travel.</a>
+
+   <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="#about">about</a>
+      <a href="#destination">destination</a>
+      <a href="#services">services</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
+
+<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+   <h1>book now</h1>
+</div>
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+   <h1 class="heading-title">book your trip!</h1>
+
+   <form target ="fake-target" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdNE47EvRylUY-wzpml8R5BEtNJVRGLGAvANpNIuJn4MVlEyg/formResponse" method="post" class="book-form" onsubmit="custommsg(); return true;">
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>name :</span>
+            <input type="text" placeholder="enter your name" name="entry.1781500597">
+         </div>
+         <div class="inputBox">
+            <span>email :</span>
+            <input type="email" placeholder="enter your email" name="entry.1640447617">
+         </div>
+         <div class="inputBox">
+            <span>phone :</span>
+            <input type="number" placeholder="enter your number" name="entry.297979220">
+         </div>
+         <div class="inputBox">
+            <span>address :</span>
+            <input type="text" placeholder="enter your address" name="entry.1078004677">
+         </div>
+         <div class="inputBox">
+            <span>where to :</span>
+            <input type="text" placeholder="place you want to visit" name="entry.2040870261">
+         </div>
+         <div class="inputBox">
+            <span>how many :</span>
+            <input type="number" placeholder="number of guests" name="entry.1649880708">
+         </div>
+         <div class="inputBox">
+            <span>arrivals :</span>
+            <input type="date" name="arrivals">
+         </div>
+         <div class="inputBox">
+            <span>leaving :</span>
+            <input type="date" name="leaving">
+         </div>
+      </div>
+
+      <input type="submit" id ="text-box" value="submit" class="btn" name="send">
+
+   </form>
+
+   <script type="text/javascript">
+    function custommsg() {
+        document.getElementById("form-message").style.display = "";
+        document.getElementById("form-message").innerHTML = "Thank you!<br/><a href='#end'><button class='btn'>Request received</button></a>";
+        document.getElementById("form-container").style.display = "none";
+
+        document.getElementById("text-box").onclick = function () {
+
+            alert("Request received, we will contact you shortly")
+
+        };
+
+
+        
+                }
+    </script>
+    
+    <div class="ss-form-container" style="display: none;" id="form-message"></div>
+    <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>
+    
+
+</section>
+
+<!-- booking section ends -->

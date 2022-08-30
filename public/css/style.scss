@@ -73,14 +73,14 @@ section{
     display: inline-block;
     padding:1rem 3rem;
     font-size: 1.7rem;
-    color:$blue;
+    color:#FFD700;
     border:$border;
     border-radius: 5rem;
     cursor: pointer;
     background: none;
 
     &:hover{
-        background: $blue;
+        background: #FFD700;
         color:$black;
     }
 }
@@ -111,15 +111,9 @@ section{
     }
 }
 
-.logo{
-    font-size: 2.5rem;
-    color:$white;
-    font-weight: bolder;
-
-    i{
-        color:$blue;
-        padding-right: .5rem;
-    }
+.logo img{
+    width: 250px;
+    float: left;
 }
 
 #menu-btn{
@@ -134,15 +128,15 @@ section{
     margin-top: 7rem;
     width: 100%;
     border-radius: 1rem;
-    background: url(../images/home-bg.jpg) no-repeat;
+    background: url(../images/landing.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    min-height: 70vh;
+    min-height: 78vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 
     .content{
         text-align: center;
@@ -535,7 +529,7 @@ section{
 }
 
 .banner{
-    background:linear-gradient($black-bg, $black-bg), url(../images/banner-bg.jpg) no-repeat;
+    background:linear-gradient($black-bg, $black-bg), url(../images/image-2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     padding:3rem 2rem;
@@ -564,6 +558,13 @@ section{
         }
     }
 }
+
+
+
+
+
+
+
 
 .footer{
 
@@ -657,18 +658,12 @@ section{
     text-align: center;
     font-size: 2rem;
     padding: 2rem 1rem;
-    color:$black;
+    color:$light-color;
 
     span{
         color:$blue;
     }
 }
-
-
-
-
-
-
 
 
 
