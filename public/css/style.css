@@ -34,7 +34,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: #fff;
+  background: white;
   overflow-x: hidden;
 }
 
@@ -54,7 +54,7 @@ section {
 
 .heading h1 {
   font-size: 4rem;
-  color: #fff;
+  color: #111;
 }
 
 .btn {
@@ -63,7 +63,7 @@ section {
   padding: 1rem 3rem;
   font-size: 1.7rem;
   color: #FFD700;
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #FFD700;
   border-radius: 5rem;
   cursor: pointer;
   background: none;
@@ -101,7 +101,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #29d9d5;
+  color: #FFD700;
 }
 
 .header .btn {
@@ -205,7 +205,7 @@ section {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #FFD700;
   font-size: 1.6rem;
   color: #aaa;
   text-transform: none;
@@ -366,7 +366,7 @@ section {
 }
 
 .services .box-container .box:hover {
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #FFD700;
 }
 
 .services .box-container .box i {
@@ -475,7 +475,7 @@ section {
 }
 
 .review .box-container .box:hover {
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #FFD700;
 }
 
 .review .box-container .box p {
@@ -637,7 +637,7 @@ section {
 
 .footer .box-container .box h3 {
   font-size: 2.2rem;
-  color: #fff;
+  color: #111;
   padding: 1rem 0;
 }
 
@@ -664,8 +664,8 @@ section {
   font-size: 2rem;
   border-radius: 50%;
   font-size: 1.7rem;
-  border: 0.2rem solid #29d9d5;
-  color: #29d9d5;
+  border: 0.2rem solid #FFD700;
+  color: #111;
   margin-right: .5rem;
   text-align: center;
 }
@@ -698,7 +698,7 @@ section {
 .footer .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #FFD700;
   background: none;
   font-size: 1.5rem;
   text-transform: none;

@@ -93,7 +93,7 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: var(--white);
+   background-color: var(--);
    display: flex;
    padding-top: 2rem;
    padding-bottom: 2rem;
@@ -102,9 +102,9 @@ section{
    justify-content: space-between;
 }
 
-.header .logo{
-   font-size: 2.5rem;
-   color:var(--black);
+.logo img{
+    width: 250px;
+    float: left;
 }
 
 .header .navbar a{
